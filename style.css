@@ -1,0 +1,78 @@
+h1, h2 {
+  color : #4F605B;
+  font-family: 'Libre Baskerville', serif;
+}
+
+body {
+  font-family: 'Edu SA Beginner', cursive;
+  font-weight: 300;
+  color : #916666
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.card-white {
+  background-color: #E9E4E4;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #AE997C;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 10px;
+  list-style: none;
+  transition: background-color 0.3s ease;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+img {
+  border-radius: 50%
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
